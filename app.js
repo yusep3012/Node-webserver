@@ -9,7 +9,7 @@ dotenv.config();
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8081;
 
 // Handlebars
 hbs.registerPartials(__dirname + "/views/partials");
